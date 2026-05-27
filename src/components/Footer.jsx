@@ -33,8 +33,8 @@ export function Footer() {
           </div>
         </div>
         <div className="foot-bottom">
-          <span>© {new Date().getFullYear()} Amaral &amp; Bohrer Advogados. Todos os direitos reservados.</span>
-          <span>OAB/CE 36.237</span>
+          <span>© {new Date().getFullYear()} Amaral &amp; Bohrer Advogados · CNPJ 29.494.748/0001-70</span>
+          <span>OAB/RS 7.789</span>
         </div>
         <p className="foot-disclaimer">
           Este site não faz parte do Google, Meta Platforms (Instagram, Facebook), ByteDance (TikTok), YouTube ou Mercado Livre, nem é afiliado a essas empresas. Não oferecemos serviços oficiais dessas plataformas e não praticamos qualquer tipo de fraude.

@@ -50,7 +50,7 @@ export function Hero({ headline, subhead, ctaLabel }) {
             <div className="badge b1">
               <div className="ic"><Icons.Users /></div>
               <div>
-                <div className="v">+13.000</div>
+                <div className="v">+10.000</div>
                 <div className="l">Clientes atendidos</div>
               </div>
             </div>

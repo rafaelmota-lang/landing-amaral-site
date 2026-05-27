@@ -42,7 +42,7 @@ export function Testimonials() {
             <div className="g-score">5,0</div>
             <div>
               <div className="g-stars">★★★★★</div>
-              <div className="g-reviews">Baseado em <strong>594 avaliações</strong> no Google</div>
+              <div className="g-reviews">Baseado em <strong>390 avaliações</strong> no Google</div>
             </div>
           </div>
 
@@ -74,12 +74,12 @@ export function Testimonials() {
           </div>
           <div className="trust-sep" aria-hidden="true"></div>
           <div className="trust-item">
-            <div className="trust-num">594</div>
+            <div className="trust-num">+390</div>
             <div className="trust-lbl">Avaliações verificadas</div>
           </div>
           <div className="trust-sep" aria-hidden="true"></div>
           <div className="trust-item">
-            <div className="trust-num">+13k</div>
+            <div className="trust-num">+10k</div>
             <div className="trust-lbl">Clientes atendidos</div>
           </div>
           <div className="trust-sep" aria-hidden="true"></div>

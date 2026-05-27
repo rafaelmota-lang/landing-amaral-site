@@ -96,8 +96,8 @@ export const Icons = {
 export const StarsRow = ({ light = false }) => (
   <div className="stars" style={light ? { color: 'rgba(255,255,255,0.85)' } : {}}>
     <span className="s">★★★★★</span>
-    <span><strong>5,0</strong> · 594 avaliações no Google</span>
+    <span><strong>5,0</strong> · +390 avaliações no Google</span>
     <span className="sep">|</span>
-    <span>+13 mil pessoas atendidas</span>
+    <span>+10 mil pessoas atendidas</span>
   </div>
 );

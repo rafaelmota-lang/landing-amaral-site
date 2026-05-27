@@ -4,7 +4,7 @@ import { About } from './components/About.jsx';
 import { Areas } from './components/Areas.jsx';
 import { Results } from './components/Results.jsx';
 import { Process } from './components/Process.jsx';
-import { Lawyer } from './components/Lawyer.jsx';
+import { Partners } from './components/Partners.jsx';
 import { WhyUs } from './components/WhyUs.jsx';
 import { Testimonials } from './components/Testimonials.jsx';
 import { FAQ } from './components/FAQ.jsx';
@@ -49,7 +49,7 @@ export function App() {
         <Areas />
         <Results />
         <Process />
-        <Lawyer />
+        <Partners />
         <WhyUs />
         <Testimonials />
         <FAQ />

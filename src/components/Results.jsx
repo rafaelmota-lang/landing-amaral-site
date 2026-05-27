@@ -1,7 +1,7 @@
 export function Results() {
   const items = [
-    { big: '+13', unit: 'mil', small: 'Clientes atendidos', desc: 'Pessoas e empresas atendidas em todo o Brasil desde a fundação do escritório.' },
-    { big: '5,0', unit: '★', small: 'Nota Google', desc: 'Reputação verificada com 594 avaliações públicas no perfil oficial do escritório.' },
+    { big: '+10', unit: 'mil', small: 'Clientes atendidos', desc: 'Pessoas e empresas atendidas em todo o Brasil desde a fundação do escritório, em 2017.' },
+    { big: '5,0', unit: '★', small: 'Nota Google', desc: 'Reputação verificada com mais de 390 avaliações públicas no perfil oficial do escritório.' },
     { big: '100', unit: '%', small: 'Atendimento remoto', desc: 'Você não precisa sair de casa para falar com o seu advogado. Tudo é feito digitalmente.' },
     { big: '24', unit: 'h', small: 'Resposta', desc: 'Tempo médio de retorno após o primeiro contato. Casos urgentes têm prioridade.' },
   ];

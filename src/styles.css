@@ -776,6 +776,82 @@ p { margin: 0; }
   margin-bottom: 24px;
 }
 
+/* ============ PARTNERS ============ */
+.partners { background: white; }
+.partners .section-title { margin-bottom: 20px; }
+.partners-intro {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 56px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  max-width: 920px;
+  margin: 0 auto 44px;
+}
+.partner-card {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  background: linear-gradient(135deg, var(--teal-deep), var(--teal-dark));
+  color: white;
+  border-radius: var(--r-xl);
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+}
+.partner-card::before {
+  content: "";
+  position: absolute;
+  top: -40%; right: -15%;
+  width: 260px; height: 260px;
+  background: radial-gradient(circle, rgba(245, 160, 74, 0.18), transparent 70%);
+  pointer-events: none;
+}
+.partner-photo {
+  width: 110px; height: 110px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2a4a4a, #1a3a3a);
+  border: 5px solid rgba(255,255,255,0.1);
+  display: grid; place-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.partner-photo picture, .partner-photo img {
+  width: 100%; height: 100%; object-fit: cover; object-position: center top;
+}
+.partner-initials {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 34px;
+  color: var(--orange-on-dark);
+  letter-spacing: 0.02em;
+}
+.partner-info { position: relative; z-index: 1; }
+.partner-info .role {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange-on-dark);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.partner-info h3 { font-size: 22px; margin-bottom: 10px; color: white; }
+.partner-info p.bio { color: rgba(255,255,255,0.9); font-size: 14px; line-height: 1.65; }
+@media (max-width: 820px) {
+  .partners-grid { grid-template-columns: 1fr; max-width: 560px; }
+}
+@media (max-width: 480px) {
+  .partner-card { flex-direction: column; text-align: center; gap: 18px; }
+}
+
 /* ============ WHY US ============ */
 .why-us { background: var(--bg); }
 .why-us .section-title { margin-bottom: 56px; }
