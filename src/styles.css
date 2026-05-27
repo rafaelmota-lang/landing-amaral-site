@@ -200,8 +200,9 @@ p { margin: 0; }
 }
 .hero-nav .brand {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
   white-space: nowrap;
   min-width: 0;
 }
@@ -209,6 +210,12 @@ p { margin: 0; }
   height: 38px;
   width: auto;
   filter: brightness(0) invert(1);
+}
+.hero-nav .brand-oab {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
 }
 .hero-nav .nav-links {
   display: flex;

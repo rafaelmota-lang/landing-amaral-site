@@ -20,6 +20,7 @@ export function Hero({ headline, subhead, ctaLabel }) {
                 fetchpriority="high"
               />
             </picture>
+            <span className="brand-oab">OAB/RS 7.789</span>
           </div>
           <div className="nav-links" aria-label="Seções">
             <a href="#areas">Áreas de atuação</a>
@@ -77,13 +78,13 @@ export function Hero({ headline, subhead, ctaLabel }) {
                       <span style={{ background: 'var(--teal)' }}></span>
                       Solução jurídica
                     </div>
-                    <p className="phone-card-title">Recupere o acesso com um especialista</p>
+                    <p className="phone-card-title">Fale com um especialista sobre o seu caso</p>
                     <div className="phone-bars">
                       <span></span><span></span>
                     </div>
                   </div>
                   <div className="phone-cta">Falar com especialista</div>
-                  <div className="phone-quote">★★★★★ Nota 5,0 · 594 avaliações</div>
+                  <div className="phone-quote">★★★★★ Nota 5,0 · +390 avaliações</div>
                 </div>
               </div>
             </div>

@@ -13,13 +13,13 @@ export function About() {
     },
     {
       icon: <Icons.Handshake />,
-      text: <><strong>A justiça pode obrigar a plataforma a te devolver o acesso.</strong> Com a estratégia jurídica correta, é possível conseguir uma decisão liminar para restabelecer a conta em poucos dias.</>,
+      text: <><strong>A via judicial pode ser acionada para questionar o bloqueio.</strong> Com a estratégia jurídica adequada, é possível pleitear uma decisão liminar que solicite o restabelecimento do acesso à conta.</>,
     },
   ];
   return (
     <section className="orange-band" id="sobre">
       <div className="wrap">
-        <h2>Somos um escritório especializado em recuperar o acesso a contas digitais bloqueadas, suspensas ou invadidas</h2>
+        <h2>Somos um escritório especializado em ações de recuperação de acesso a contas digitais bloqueadas, suspensas ou invadidas</h2>
         <div className="orange-list">
           {points.map((p, i) => (
             <div className="orange-item" key={i}>

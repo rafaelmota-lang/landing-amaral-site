@@ -10,7 +10,7 @@ export function Results() {
       <div className="wrap">
         <div className="head">
           <div>
-            <span className="eyebrow accent-orange">Resultados</span>
+            <span className="eyebrow accent-orange">O escritório em números</span>
             <h2 style={{ marginTop: 12 }}>
               Números que mostram <span className="accent-orange">como atuamos</span>
             </h2>

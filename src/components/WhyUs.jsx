@@ -7,13 +7,13 @@ export function WhyUs() {
       stat: '+',
       label: 'Especialização',
       title: 'Foco em direito digital',
-      text: 'Não somos generalistas. Conhecemos a fundo os mecanismos de moderação das plataformas e os caminhos jurídicos mais eficazes para reverter bloqueios e invasões.',
+      text: 'Não somos generalistas. Conhecemos a fundo os mecanismos de moderação das plataformas e os caminhos jurídicos para questionar bloqueios, suspensões e invasões.',
     },
     {
-      stat: '13k+',
+      stat: '10k+',
       label: 'Clientes atendidos',
-      title: 'Experiência comprovada',
-      text: 'Mais de 13 mil clientes atendidos — criadores, influenciadores, empresas e usuários comuns que recuperaram suas contas e seus negócios com o nosso escritório.',
+      title: 'Experiência consolidada',
+      text: 'Mais de 10 mil clientes atendidos — criadores, influenciadores, empresas e usuários comuns que contaram com o nosso escritório para defender seus direitos.',
     },
     {
       stat: '100%',
@@ -27,7 +27,7 @@ export function WhyUs() {
       <div className="wrap">
         <h2 className="section-title">
           Por que escolher a Amaral e Bohrer<br />
-          <span className="accent-orange">para recuperar a sua conta</span>
+          <span className="accent-orange">para cuidar do seu caso</span>
         </h2>
         <div className="why-grid">
           {cards.map((c, i) => (

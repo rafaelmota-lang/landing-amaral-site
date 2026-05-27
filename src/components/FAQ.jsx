@@ -2,16 +2,16 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    q: 'Quais tipos de conta vocês recuperam?',
-    a: 'Atuamos na recuperação de contas em redes sociais (Instagram, Facebook, TikTok, YouTube) e marketplaces (Mercado Livre, Shopee, Amazon, Magazine Luiza, entre outros). Atendemos perfis pessoais, comerciais, de criadores de conteúdo e empresas.',
+    q: 'Com quais plataformas vocês atuam?',
+    a: 'Atuamos em casos envolvendo redes sociais (Instagram, Facebook, TikTok, YouTube) e marketplaces (Mercado Livre, Shopee, Amazon, Magazine Luiza, entre outros). Atendemos perfis pessoais, comerciais, de criadores de conteúdo e empresas.',
   },
   {
     q: 'Em quais situações é possível recorrer judicialmente?',
     a: 'Tanto em casos de invasão (conta hackeada) quanto de suspensão ou bloqueio indevido pela própria plataforma. Mesmo quando a empresa alega "violação dos termos de uso", é possível questionar judicialmente a proporcionalidade e a fundamentação da punição.',
   },
   {
-    q: 'Quanto tempo demora para recuperar o acesso?',
-    a: 'Em casos com pedido liminar, é possível obter a reativação em 7 a 30 dias. O prazo varia conforme a complexidade do caso, o juízo e a documentação disponível. Casos mais simples podem ser resolvidos extrajudicialmente em menos tempo.',
+    q: 'Quanto tempo costuma levar um caso desses?',
+    a: 'Cada caso é único e o prazo depende da complexidade, do juízo competente e da documentação apresentada. Em pedidos liminares, busca-se uma análise mais célere em razão da urgência, mas não existe prazo garantido — a decisão é sempre do Poder Judiciário.',
   },
   {
     q: 'Vocês atendem em todo o Brasil?',
@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: 'Como começo?',
-    a: 'Clique em qualquer botão de contato e fale com a nossa equipe. Faremos uma análise inicial do seu caso e explicaremos os próximos passos para recuperar o acesso à sua conta.',
+    a: 'Clique em qualquer botão de contato e fale com a nossa equipe. Faremos uma análise inicial do seu caso e explicaremos os próximos passos.',
   },
 ];
 

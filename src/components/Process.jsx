@@ -18,13 +18,13 @@ export function Process() {
     {
       title: 'Medida judicial com pedido liminar',
       paras: [
-        'Ingressamos com a ação na justiça pedindo uma decisão liminar (urgente) para que a plataforma seja obrigada a restabelecer o acesso à sua conta o mais rápido possível.',
+        'Ingressamos com a ação na justiça com um pedido de liminar (urgente), solicitando à plataforma o restabelecimento do acesso à sua conta.',
       ],
     },
     {
-      title: 'Recuperação do acesso',
+      title: 'Acompanhamento da decisão',
       paras: [
-        'Com a decisão favorável, a plataforma é notificada e deve devolver o acesso. Quando cabível, também buscamos indenização pelos prejuízos causados.',
+        'Caso a decisão seja favorável, a plataforma é notificada para restabelecer o acesso. Quando cabível, também é possível pleitear indenização pelos prejuízos causados.',
       ],
     },
   ];
@@ -34,7 +34,7 @@ export function Process() {
         <div style={{ textAlign: 'center', marginBottom: 16 }}>
           <span className="eyebrow accent-orange">Como funciona</span>
         </div>
-        <h2 className="section-title">Um processo simples, do contato à recuperação</h2>
+        <h2 className="section-title">Como conduzimos o seu caso, passo a passo</h2>
         <div className="steps-grid" style={{ marginTop: 48 }}>
           {steps.map((s, i) => (
             <div className="step-card" key={i}>

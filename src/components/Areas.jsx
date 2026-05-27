@@ -100,7 +100,7 @@ export function Areas() {
           <span className="eyebrow accent-orange">Áreas de atuação</span>
         </div>
         <h2 className="section-title">
-          Recuperamos contas nas principais<br />
+          Atuamos na recuperação de contas nas principais<br />
           <span className="accent-orange">plataformas digitais</span>
         </h2>
         <div className="areas-grid">

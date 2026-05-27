@@ -17,8 +17,8 @@ const TweaksRuntime = TWEAKS_ENABLED
   : null;
 
 const HEADLINES = {
-  original: 'Perdeu o acesso à sua conta digital? <span class="accent">Nós recuperamos judicialmente.</span>',
-  direct: 'Conta suspensa, bloqueada ou hackeada? <span class="accent">A gente reverte isso.</span>',
+  original: 'Perdeu o acesso à sua conta digital? <span class="accent">Conte com advogados especializados em direito digital.</span>',
+  direct: 'Conta suspensa, bloqueada ou hackeada? <span class="accent">Entenda seus direitos com quem é especialista.</span>',
 };
 const SUBHEADS = {
   original: 'A Amaral e Bohrer Advogados é especializada na recuperação de contas em redes sociais e marketplaces — Instagram, Facebook, TikTok, YouTube, Mercado Livre e outras plataformas. Atuamos em todo o Brasil, de forma 100% remota.',
