@@ -4,4 +4,4 @@ export const LEAD_URL = 'https://app.leadster.com.br/capture/d7TGpeHYhhrspZ7i';
 
 // Landing pages especializadas por plataforma.
 export const LP_INSTAGRAM = 'https://instagram.amaralebohrer.com.br/';
-export const LP_MERCADOLIVRE = 'https://mercadolivre.amaralebohrer.com.br/';
+export const LP_MERCADOLIVRE = 'https://ml.amaralebohrer.com.br/';
