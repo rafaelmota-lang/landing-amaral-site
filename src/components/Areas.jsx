@@ -1,5 +1,7 @@
 import { Icons, StarsRow } from './Icons.jsx';
-import { LEAD_URL, LP_INSTAGRAM, LP_MERCADOLIVRE } from '../config.js';
+import { LP_INSTAGRAM, LP_MERCADOLIVRE } from '../config.js';
+import { useWhatsAppLink, useNumeroWhatsApp } from '../useWhatsAppLink.js';
+import { montarLink } from '../config.js';
 
 function IgIcon() {
   return (
@@ -43,6 +45,8 @@ function CartIcon() {
 }
 
 export function Areas() {
+  const whatsappLink = useWhatsAppLink();
+  const numeroSorteado = useNumeroWhatsApp();
   const areas = [
     {
       icon: <IgIcon />,
@@ -64,7 +68,7 @@ export function Areas() {
       icon: <FbIcon />,
       title: 'Facebook',
       text: 'Perfil ou página comercial bloqueada, desativada ou invadida por terceiros.',
-      href: LEAD_URL,
+      href: montarLink(numeroSorteado, 'Quero recuperar minha conta do Facebook'),
       cta: 'Falar sobre meu caso',
       external: false,
     },
@@ -72,7 +76,7 @@ export function Areas() {
       icon: <TiktokIcon />,
       title: 'TikTok',
       text: 'Conta banida, suspensa ou com restrições indevidas de monetização e alcance.',
-      href: LEAD_URL,
+      href: montarLink(numeroSorteado, 'Quero recuperar minha conta do TikTok'),
       cta: 'Falar sobre meu caso',
       external: false,
     },
@@ -80,7 +84,7 @@ export function Areas() {
       icon: <YtIcon />,
       title: 'YouTube',
       text: 'Canal removido, desmonetizado ou suspenso por strikes e denúncias indevidas.',
-      href: LEAD_URL,
+      href: montarLink(numeroSorteado, 'Quero recuperar meu canal do YouTube'),
       cta: 'Falar sobre meu caso',
       external: false,
     },
@@ -88,7 +92,7 @@ export function Areas() {
       icon: <Icons.Box />,
       title: 'Outros marketplaces',
       text: 'Shopee, Amazon, Magazine Luiza e demais plataformas de vendas online.',
-      href: LEAD_URL,
+      href: montarLink(numeroSorteado, 'Quero recuperar minha conta em um marketplace'),
       cta: 'Falar sobre meu caso',
       external: false,
     },
@@ -119,7 +123,7 @@ export function Areas() {
           ))}
         </div>
         <div className="cta-block">
-          <a id="lead" href={LEAD_URL} target="_blank" rel="noopener" className="cta">Não encontrou sua plataforma? Fale conosco <Icons.Arrow /></a>
+          <a id="lead" href={whatsappLink} target="_blank" rel="noopener" className="cta">Não encontrou sua plataforma? Fale conosco <Icons.Arrow /></a>
           <StarsRow />
         </div>
       </div>

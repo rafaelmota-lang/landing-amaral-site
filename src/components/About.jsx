@@ -1,7 +1,8 @@
 import { Icons, StarsRow } from './Icons.jsx';
-import { LEAD_URL } from '../config.js';
+import { useWhatsAppLink } from '../useWhatsAppLink.js';
 
 export function About() {
+  const whatsappLink = useWhatsAppLink();
   const points = [
     {
       icon: <Icons.Lock />,
@@ -29,7 +30,7 @@ export function About() {
           ))}
         </div>
         <div className="cta-block">
-          <a id="lead" href={LEAD_URL} target="_blank" rel="noopener" className="cta">Falar com um especialista <Icons.Arrow /></a>
+          <a id="lead" href={whatsappLink} target="_blank" rel="noopener" className="cta">Falar com um especialista <Icons.Arrow /></a>
           <StarsRow light />
         </div>
       </div>
