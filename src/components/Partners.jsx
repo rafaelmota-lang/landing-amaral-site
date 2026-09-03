@@ -1,5 +1,5 @@
 import { Icons } from './Icons.jsx';
-import { useWhatsAppLink } from '../useWhatsAppLink.js';
+import { LEAD_URL } from '../config.js';
 import rafaelAvif from '../assets/rafael-mota-536.avif';
 import rafaelWebp from '../assets/rafael-mota-536.webp';
 import rafaelJpg from '../assets/rafael-mota-536.jpg';
@@ -7,7 +7,6 @@ import pedroWebp from '../assets/pedro-amaral-300.webp';
 import pedroJpg from '../assets/pedro-amaral-300.jpg';
 
 export function Partners() {
-  const whatsappLink = useWhatsAppLink();
   return (
     <section className="section partners" id="equipe">
       <div className="wrap">
@@ -67,7 +66,7 @@ export function Partners() {
         </div>
 
         <div className="cta-block">
-          <a id="lead" href={whatsappLink} target="_blank" rel="noopener" className="cta">Fale com o nosso time <Icons.Arrow /></a>
+          <a id="lead" href={LEAD_URL} target="_blank" rel="noopener" className="cta">Fale com o nosso time <Icons.Arrow /></a>
         </div>
       </div>
     </section>

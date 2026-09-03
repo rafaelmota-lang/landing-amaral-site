@@ -1,10 +1,9 @@
 import { Icons, StarsRow } from './Icons.jsx';
-import { useWhatsAppLink } from '../useWhatsAppLink.js';
+import { LEAD_URL } from '../config.js';
 import logoAmaralWebp from '../assets/logo-amaral.webp';
 import logoAmaralPng from '../assets/logo-amaral.png';
 
 export function Hero({ headline, subhead, ctaLabel }) {
-  const whatsappLink = useWhatsAppLink();
   return (
     <section className="hero">
       <div className="wrap">
@@ -39,7 +38,7 @@ export function Hero({ headline, subhead, ctaLabel }) {
             </div>
             <h1 dangerouslySetInnerHTML={{ __html: headline }} />
             <p className="lead">{subhead}</p>
-            <a id="lead" href={whatsappLink} target="_blank" rel="noopener" className="cta">
+            <a id="lead" href={LEAD_URL} target="_blank" rel="noopener" className="cta">
               {ctaLabel}
               <Icons.Arrow />
             </a>
